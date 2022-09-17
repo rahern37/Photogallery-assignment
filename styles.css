@@ -11,6 +11,10 @@ header h1 {
     color: #007D7B;
 }
 
+nav{
+    position: relative;
+    left: 821px;
+}
 nav li {
     font-size: 20px;
     color: #FFFFFF;
@@ -32,11 +36,13 @@ nav li a {
     color: #FFFFFF;
 }
 
-a[href="top"]:hover {
+#top a:hover{
+    background:#FFFFFF;
     color: #007D7B;
-    background-color: #FFFFFF;
 }
-
+a:hover{
+    color: #007D7B;
+}
 main {
     background: #FFFFFF;
     color: #000000;
@@ -103,28 +109,97 @@ figure{
     
 }
 
-.Guatemala > .figTopLeft, .Hawaii > figcaption, .Ireland > figcaption {
+.Chile > figcaption{
+    position: relative;
+    top: 16px;
+    left: 0px;
+    color: #000000;
+    
+}
+
+.Guatemala > figcaption{
     position: relative;
     top: 16px;
     left: 0px;
     color: #FFFFFF;
 }
 
-.figTopLeft > figcaption {
-    top: 260px;
-    float: right;
-    right: 20px;
+.Hawaii > figcaption{
+    position: relative;
+    top: 265px;
+    left: 250px;
+    color: #FFFFFF;
 }
 
-figcaption {
+.Iran > figcaption{
+    position: relative;
+    top: 16px;
+    left:0px;
+    color:#000000;
+}
+
+.Ireland > figcaption{
+    position: relative;
+    top: 614px;
+    left: 260px;
+    color: #FFFFFF;
+}
+
+.Italy > figcaption{
+    position:relative;
+    top:614px;
+    left:0px;
+    color: #FFFFFF;
+}
+
+.Moab > figcaption {
+    position: relative;
+    top: 265px;
+    left: 250px;
+    color: #FFFFFF;
+}
+
+.Rocky > figcaption {
     position: relative;
     top: 16px;
     left: 0px;
+    color: #000000;
+}
+
+.Switzerland > figcaption{
+    position: relative;
+    top: 265px;
+    left:0px;
+    color: #000000;
+}
+
+.UK > figcaption {
+    position: relative;
+    top: 265px;
+    left: 250px;
+    color: #FFFFFF;
+}
+
+.USA > figcaption{
+    position: relative;
+    top:16px;
+    left:0px;
+    color: #FFFFFF;
+}
+
+.Wyoming > figcaption {
+    position: relative;
+    top: 16px;
+    left: 0px;
+    color: #FFFFFF;
+}
+
+figcaption {
     font-size: 16px;
     font-family: Arial;
-    color: #000000;
     z-index: 1;
 }
+
 
 footer {
     text-align: center;
