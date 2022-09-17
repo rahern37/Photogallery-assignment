@@ -4,7 +4,6 @@ body {
     margin: 0 auto;
     background-color: #000000;
     color: #FFFFFF;
-    text-align: center;
 }
 
 header h1 {
@@ -12,6 +11,10 @@ header h1 {
     color: #007D7B;
 }
 
+nav{
+    position: relative;
+    left: 821px;
+}
 nav li {
     font-size: 20px;
     color: #FFFFFF;
@@ -33,21 +36,22 @@ nav li a {
     color: #FFFFFF;
 }
 
-a[href="top"]:hover {
+#top a:hover{
+    background:#FFFFFF;
     color: #007D7B;
-    background-color: #FFFFFF;
 }
-
+a:hover{
+    color: #007D7B;
+}
 main {
     background: #FFFFFF;
-    padding-left: 10px;
-    padding-right: 10px;
     color: #000000;
+    width:1310px;
 }
 
 h2 {
     font-size: 40px;
-    display: inline;
+    display:block;
 }
 
 p {
@@ -56,27 +60,146 @@ p {
 
 #about {
     height: 420px;
+    
 }
 
 #about img {
     width: 850px;
     float: left;
     height: auto;
-    padding-top: 5px;
 }
 
+#about p, #about h1{
+    float: right;
+    display:inline-block;
+}
+
+#gallery{
+    margin: 0 auto;
+}
 #gallery h2,
 #gallery p {
     clear: both;
 }
 
-figcaption {
+#gallery h2{
+    display:inline;
+}
+
+figure{
+    display: inline-block;
+    z-index: -1;
+}
+
+.Chile, .Guatemala, .Hawaii, .Moab, .Rocky, .Switzerland, .UK, .USA, .Wyoming{
+    width: 420px;
+    height: 281px;
+    margin: 2px;
+}
+
+.Iran, .Ireland, .Italy{
+    width: 420px;
+    height: 630px;
+    margin: 2px;
+}
+
+.wide img{
+    width: 420px;
+    height: 630px;
+    
+}
+
+.Chile > figcaption{
     position: relative;
-    top: 0px;
+    top: 16px;
     left: 0px;
-    font-size: 16px;
+    color: #000000;
+    
+}
+
+.Guatemala > figcaption{
+    position: relative;
+    top: 16px;
+    left: 0px;
+    color: #FFFFFF;
+}
+
+.Hawaii > figcaption{
+    position: relative;
+    top: 265px;
+    left: 250px;
+    color: #FFFFFF;
+}
+
+.Iran > figcaption{
+    position: relative;
+    top: 16px;
+    left:0px;
+    color:#000000;
+}
+
+.Ireland > figcaption{
+    position: relative;
+    top: 614px;
+    left: 260px;
+    color: #FFFFFF;
+}
+
+.Italy > figcaption{
+    position:relative;
+    top:614px;
+    left:0px;
+    color: #FFFFFF;
+}
+
+.Moab > figcaption {
+    position: relative;
+    top: 265px;
+    left: 250px;
+    color: #FFFFFF;
+}
+
+.Rocky > figcaption {
+    position: relative;
+    top: 16px;
+    left: 0px;
     color: #000000;
 }
+
+.Switzerland > figcaption{
+    position: relative;
+    top: 265px;
+    left:0px;
+    color: #000000;
+}
+
+.UK > figcaption {
+    position: relative;
+    top: 265px;
+    left: 250px;
+    color: #FFFFFF;
+}
+
+.USA > figcaption{
+    position: relative;
+    top:16px;
+    left:0px;
+    color: #FFFFFF;
+}
+
+.Wyoming > figcaption {
+    position: relative;
+    top: 16px;
+    left: 0px;
+    color: #FFFFFF;
+}
+
+figcaption {
+    font-size: 16px;
+    font-family: Arial;
+    z-index: 1;
+}
+
 
 footer {
     text-align: center;
