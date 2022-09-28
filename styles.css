@@ -7,14 +7,18 @@ body {
 }
 
 header h1 {
-    font-size: 40px;
     color: #007D7B;
+    margin-left: 40px;
+    margin-bottom: -30px;
+    font-size: 40px;
 }
 
-nav{
+nav {
     position: relative;
-    left: 821px;
+    left: 926px;
+    margin-bottom: -26px;
 }
+
 nav li {
     font-size: 20px;
     color: #FFFFFF;
@@ -36,158 +40,197 @@ nav li a {
     color: #FFFFFF;
 }
 
-#top a:hover{
-    background:#FFFFFF;
+li a[href="#about"]:hover {
     color: #007D7B;
 }
-a:hover{
+
+li a[href="#gallery"]:hover {
     color: #007D7B;
 }
+
+li a[href="#contact"]:hover {
+    color: #007D7B;
+}
+
+li a[href="#top"]:hover {
+    color: #007D7B;
+    background: #FFFFFF;
+}
+
 main {
     background: #FFFFFF;
     color: #000000;
-    width:1310px;
+    width: 1310px;
 }
 
 h2 {
     font-size: 40px;
-    display:block;
 }
 
 p {
     font-size: 20px;
 }
 
-#about {
-    height: 420px;
-    
-}
-
-#about img {
+[src="TK.png"] {
     width: 850px;
     float: left;
     height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-#about p, #about h1{
+#about {
     float: right;
-    display:inline-block;
+    height: 200px;
+    width: 420px;
 }
 
-#gallery{
-    margin: 0 auto;
+#about h2 {
+    float: right;
+    margin-right: 10px;
+    margin-top: -5px;
 }
+
+#about>p:first-of-type {
+    float: right;
+    margin-top: 47px;
+    margin-right: -113px;
+    margin-bottom: auto;
+}
+
+#about>p:nth-of-type(2) {
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+
+#gallery {
+    margin-left: 12px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 #gallery h2,
 #gallery p {
     clear: both;
 }
 
-#gallery h2{
-    display:inline;
+#gallery h2 {
+    display: inline;
 }
 
-figure{
+figure {
     display: inline-block;
     z-index: -1;
 }
 
-.Chile, .Guatemala, .Hawaii, .Moab, .Rocky, .Switzerland, .UK, .USA, .Wyoming{
+.Chile,
+.Guatemala,
+.Hawaii,
+.Moab,
+.Rocky,
+.Switzerland,
+.UK,
+.USA,
+.Wyoming {
     width: 420px;
     height: 281px;
     margin: 2px;
 }
 
-.Iran, .Ireland, .Italy{
+.Iran,
+.Ireland,
+.Italy {
     width: 420px;
     height: 630px;
     margin: 2px;
 }
 
-.wide img{
+.wide img {
     width: 420px;
     height: 630px;
-    
 }
 
-.Chile > figcaption{
+.Chile>figcaption {
     position: relative;
     top: 16px;
     left: 0px;
     color: #000000;
-    
 }
 
-.Guatemala > figcaption{
+.Guatemala>figcaption {
     position: relative;
     top: 16px;
     left: 0px;
     color: #FFFFFF;
 }
 
-.Hawaii > figcaption{
+.Hawaii>figcaption {
     position: relative;
     top: 265px;
     left: 250px;
     color: #FFFFFF;
 }
 
-.Iran > figcaption{
+.Iran>figcaption {
     position: relative;
     top: 16px;
-    left:0px;
-    color:#000000;
+    left: 0px;
+    color: #000000;
 }
 
-.Ireland > figcaption{
+.Ireland>figcaption {
     position: relative;
     top: 614px;
     left: 260px;
     color: #FFFFFF;
 }
 
-.Italy > figcaption{
-    position:relative;
-    top:614px;
-    left:0px;
+.Italy>figcaption {
+    position: relative;
+    top: 614px;
+    left: 0px;
     color: #FFFFFF;
 }
 
-.Moab > figcaption {
+.Moab>figcaption {
     position: relative;
     top: 265px;
     left: 250px;
     color: #FFFFFF;
 }
 
-.Rocky > figcaption {
+.Rocky>figcaption {
     position: relative;
     top: 16px;
     left: 0px;
     color: #000000;
 }
 
-.Switzerland > figcaption{
+.Switzerland>figcaption {
     position: relative;
     top: 265px;
-    left:0px;
+    left: 0px;
     color: #000000;
 }
 
-.UK > figcaption {
+.UK>figcaption {
     position: relative;
     top: 265px;
     left: 250px;
     color: #FFFFFF;
 }
 
-.USA > figcaption{
+.USA>figcaption {
     position: relative;
-    top:16px;
-    left:0px;
+    top: 16px;
+    left: 0px;
     color: #FFFFFF;
 }
 
-.Wyoming > figcaption {
+.Wyoming>figcaption {
     position: relative;
     top: 16px;
     left: 0px;
@@ -200,30 +243,66 @@ figcaption {
     z-index: 1;
 }
 
-
-footer {
+footer h2,
+footer p,
+form {
     text-align: center;
-    margin: 0 auto;
+}
+
+footer h2 {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+footer p {
+    margin-top: 2px;
+    margin-bottom: auto;
 }
 
 #contact {
-    width: 850px;
+    width: 500px;
     background-color: #000000;
     color: #FFFFFF;
     margin: 0 auto;
 }
 
-label {
-    font-size: 16px;
+form {
+    width: 1310px;
+    display: inline-block;
 }
 
-#contact input[placeholder] {
+label {
+    font-size: 16px;
+    display: block;
+    margin-left: -630px;
+}
+
+label:nth-of-type(3) {
+    margin-left: -607px;
+}
+
+input[type="text"] {
+    width: 666px;
+}
+
+::placeholder {
     font-size: 16px;
     color: #007D7B;
+}
+
+[name="message"] {
+    width: 672px;
+    height: 21px;
 }
 
 [type="submit"] {
     background-color: #007D7B;
     color: #FFFFFF;
     border-radius: 5px;
+    margin-top: -10px;
+    width: 265px;
+}
+
+small {
+    font-size: 16px;
 }
