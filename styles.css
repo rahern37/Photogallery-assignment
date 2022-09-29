@@ -16,7 +16,6 @@ header h1 {
 nav {
     position: relative;
     left: 926px;
-    margin-bottom: -26px;
 }
 
 nav li {
@@ -38,6 +37,8 @@ nav li a {
     right: 0px;
     background: #007D7B;
     color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
 }
 
 li a[href="#about"]:hover {
